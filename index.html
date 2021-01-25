@@ -4,44 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M.RAY Web-folio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
+    <style>
+        html { 
+                background: url(MRAYÖL.jpg) no-repeat center fixed; 
+                background-size: cover;
+            }
+
+        body { 
+  color: white; 
+            }   
+    </style>
     
 </head>
 <body>
+
+    
     
     <div id="myNav" class="overlay">
 
-       
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       
        
         <div class="overlay-content">
-          <a href="#">About</a>
-          <a href="#">Skills</a>
-          <a href="#">Bio</a>
-          <a href="https:www.linkedin.com/in/marcus-vonbor">LinkedIn</a>
+          <a href="bio.html">BIO</a>
+          <a href="skills-tools.html">SKILLS/TOOLS</a>
+          <a href="https://github.com/Vonbor">PROJECTS</a>
+          <a href="https:www.linkedin.com/in/marcus-vonbor">LINKEDIN</a>
         </div>
       
     </div>
 
-        <h2>Marcus Ray </h2>
-        <h4>Full-Stack Web-Developer</h4>
+    
+        
+
+        <h1>Full-Stack Web Developer </h1>
+        
 
 
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Information</span>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Info</span>
       
 
 
 
-        <p>My name is Marcus Ray and I am a buliding. As I teenager I built swimming pools <br>
-            with my father's construction busines. After finishing my degree in managment, <br> I built successful teams. 
-            But now for the next phase, I am building products for the internet.  </p>
+        <p> Hello, my name is Marcus Ray and 
+            <br>  I'm a builder. I've built beautiful swimming   
+            <br>  pools and I've built successful teams in retail.
+            <br>  But now, my attention is focused on
+            <br>  building functional products for the Web.  </p>
         
         
       
 
-      <script>
+        <script>
         function openNav() {
           document.getElementById("myNav").style.height = "100%";
         }
@@ -50,6 +68,8 @@
           document.getElementById("myNav").style.height = "0%";
         }
         </script>
+
+
  
 </body>
 </html>
