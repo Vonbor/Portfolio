@@ -2,7 +2,7 @@
 
 h1, p {
   font-family: 'Bodoni Moda', serif;
-  color:  rgb(237, 238, 243);
+  color:  rgb(225, 228, 241);
 }
 
 p{
@@ -21,9 +21,15 @@ h1{
 span {
   font-family: 'Bodoni Moda', serif;
   margin: 75px;
-  color: rgb(237, 238, 243);
+  color: rgb(225, 228, 241);
 }
 
+.p-copyright{
+  padding-top: 5%;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  }
 /*Fullscreen Naviagtion Overlay*/
 .overlay {
   height: 0%;
