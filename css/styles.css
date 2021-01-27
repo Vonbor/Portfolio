@@ -30,6 +30,14 @@ span {
   font-size: 15px;
   text-align: center;
   }
+
+.bottom-nav-bio {
+  padding-left: 50px;
+  color: rgb(225, 228, 241) ;
+
+}
+
+
 /*Fullscreen Naviagtion Overlay*/
 .overlay {
   height: 0%;
