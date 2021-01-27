@@ -18,10 +18,32 @@ h1{
   font-size: 60px;
 }
 
+h2{
+  text-align: left;
+  margin-top: 225px;
+  margin-left: 100px;
+  font-family: 'Bodoni Moda', serif;
+  color: orange;
+  
+}
+
+h5{
+    text-align: left;
+    margin-top: 225px;
+    margin-left: 100px;
+    font-family: 'Bodoni Moda', serif;
+    color: orange;
+}
+
 span {
   font-family: 'Bodoni Moda', serif;
   margin: 75px;
   color: rgb(225, 228, 241);
+}
+
+.bottom-nav-skills{
+  color: orange;
+  padding-left: 200px;
 }
 
 .p-copyright{
