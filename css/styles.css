@@ -23,6 +23,7 @@ span {
   margin: 75px;
   color: rgb(225, 228, 241);
 }
+<<<<<<< HEAD
 
 .p-copyright{
   padding-top: 5%;
@@ -30,6 +31,8 @@ span {
   font-size: 15px;
   text-align: center;
   }
+=======
+>>>>>>> main
 /*Fullscreen Naviagtion Overlay*/
 .overlay {
   height: 0%;
