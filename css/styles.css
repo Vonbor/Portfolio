@@ -35,6 +35,9 @@ h5{
     color: orange;
 }
 
+li {
+  font-family: 'Bodoni Moda', serif;
+}
 span {
   font-family: 'Bodoni Moda', serif;
   margin: 75px;
@@ -179,7 +182,6 @@ span {
   right: 35px;
   }
 }
-
 
 .overlay-bio a {
   padding: 8px;
