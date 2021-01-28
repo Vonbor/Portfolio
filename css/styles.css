@@ -52,6 +52,13 @@ span {
   font-size: 15px;
   text-align: center;
   }
+
+.bottom-nav-bio {
+  padding-left: 200px;
+  color: rgb(225, 228, 241) ;
+}
+
+
 /*Fullscreen Naviagtion Overlay*/
 .overlay {
   height: 0%;
@@ -86,6 +93,8 @@ span {
   display: block;
   transition: 0.3s;
 }
+
+
 
 .overlay a:hover, .overlay a:focus {
   color: #f1f1f1;
@@ -174,4 +183,67 @@ span {
 }
 
 
+.overlay-bio a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: rgb(15, 189, 219);
+  display: block;
+  transition: 0.3s;
+}
+.overlay-bio {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  
+  background-color: rgb(82, 83, 83); 
+  opacity: .9;
+  overflow-y: hidden;
+  transition: 0.5;
+}
 
+.overlay-bio-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 150px;
+  font-weight: 500;
+}
+
+.overlay-bio a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: rgb(15, 189, 219);
+  display: block;
+  transition: 0.3s;
+}
+
+
+
+.overlay-bio a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay-bio .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay-bio {overflow-y: auto;}
+  .overlay-bio a {font-size: 20px}
+  .overlay-bio .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
