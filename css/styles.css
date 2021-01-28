@@ -18,10 +18,35 @@ h1{
   font-size: 60px;
 }
 
+h2{
+  text-align: left;
+  margin-top: 225px;
+  margin-left: 80px;
+  font-family: 'Bodoni Moda', serif;
+  color: orange;
+  
+}
+
+h5{
+    text-align: left;
+    margin-top: 225px;
+    margin-left: 100px;
+    font-family: 'Bodoni Moda', serif;
+    color: orange;
+}
+
+li {
+  font-family: 'Bodoni Moda', serif;
+}
 span {
   font-family: 'Bodoni Moda', serif;
   margin: 75px;
   color: rgb(225, 228, 241);
+}
+
+.bottom-nav-skills{
+  color: orange;
+  padding-left: 200px;
 }
 
 .p-copyright{
@@ -36,7 +61,6 @@ span {
   padding-left: 200px;
   color: rgb(225, 228, 241) ;
 }
-
 /*Fullscreen Naviagtion Overlay*/
 .overlay {
   height: 0%;
@@ -95,6 +119,70 @@ span {
   }
 }
 
+.overlay-skills a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: orange;
+  display: block;
+  transition: 0.3s;
+}
+.overlay-skills {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  
+  background-color: rgb(82, 83, 83); 
+  opacity: .9;
+  overflow-y: hidden;
+  transition: 0.5;
+}
+
+.overlay-skills-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 150px;
+  font-weight: 500;
+}
+
+.overlay-skills a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: orange;
+  display: block;
+  transition: 0.3s;
+}
+
+
+
+.overlay-skills a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay-skills .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay-skills {overflow-y: auto;}
+  .overlay-skills a {font-size: 20px}
+  .overlay-skills .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
 
 .overlay-bio a {
   padding: 8px;
