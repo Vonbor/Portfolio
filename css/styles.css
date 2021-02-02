@@ -37,6 +37,31 @@ h5{
 
 li {
   font-family: 'Bodoni Moda', serif;
+  list-style-type: none;
+  padding: 10px;
+}
+
+
+.dev-li-1{
+  position: relative;
+  display: inline-block;
+} 
+.dev-li-2 {
+position: relative;
+display: inline-block;
+left: 40px;
+}
+
+.pm-li-1{
+  position: relative;
+  display: inline-block;
+}
+
+.pm-li-2{
+  position: relative;
+  display: inline-block;
+  
+  left: 10px
 }
 span {
   font-family: 'Bodoni Moda', serif;
