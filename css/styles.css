@@ -29,10 +29,11 @@ h2{
 
 h5{
     text-align: left;
-    margin-top: 225px;
-    margin-left: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
     font-family: 'Bodoni Moda', serif;
     color: orange;
+    font-size: 30px;
 }
 
 li {
