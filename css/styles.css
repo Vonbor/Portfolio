@@ -46,6 +46,7 @@ li {
 .dev-li-1{
   position: relative;
   display: inline-block;
+
 } 
 .dev-li-2 {
 position: relative;
@@ -56,12 +57,14 @@ left: 40px;
 .pm-li-1{
   position: relative;
   display: inline-block;
+
+
 }
 
 .pm-li-2{
   position: relative;
   display: inline-block;
-  
+
   left: 10px
 }
 span {
